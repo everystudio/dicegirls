@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee25b088af4fc744e85d82791d63a92c, type: 3}
+  m_Name: MasuRefarences
+  m_EditorClassIdentifier: 
+  masu_materials:
+  - {fileID: 2100000, guid: afe0212cf8d4c8649b496ab013474361, type: 2}
+  - {fileID: 2100000, guid: 401ed5f04f9652a45bd77425fe34fc33, type: 2}
+  - {fileID: 2100000, guid: 8dbab3f0769dbcc4ca42f0375dc64657, type: 2}
+  - {fileID: 2100000, guid: 4a8053fd212f1bc44908492decfa4f99, type: 2}
+  - {fileID: 2100000, guid: d836b2e8e0b6d234687233ec8cf89538, type: 2}
+  - {fileID: 2100000, guid: 0f1deb71c9e6d984ab433fb41188cded, type: 2}
+  - {fileID: 2100000, guid: 917f4f58178932646bbbffed3a632eaa, type: 2}
