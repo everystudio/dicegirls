@@ -7,3 +7,6 @@
 // 外部でgit cloneをする場合は素材の更新などをお忘れなく
 git update-index --assume-unchanged Assets/2D\ Hand\ Painted\ Tilesets/2D\ Hand\ Painted\ -\ Grassland\ Tileset/Sprites/Tilesets\ 128x128/*.png
 
+git update-index --assume-unchanged Assets/Texture/private_images/item/*.png
+
+git update-index --assume-unchanged Assets/Texture/private_images/*.png
