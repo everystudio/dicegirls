@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3aaa9aa059739345896d59e6c019859, type: 3}
-  m_Name: potion 2
+  m_Script: {fileID: 11500000, guid: e691ef248f5e9734781887b8da5eb624, type: 3}
+  m_Name: PlayerData1
   m_EditorClassIdentifier: 
-  item_name: "\u76EE\u7389\u713C\u304D"
-  item_key: egg_dish
-  sprite: {fileID: 21300000, guid: f6a00e01be663ec4fadc54a0094b4442, type: 3}
+  ActorNumber: 0
+  state: 0
+  masu_id: 58

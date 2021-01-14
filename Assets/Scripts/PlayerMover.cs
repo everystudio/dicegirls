@@ -10,6 +10,7 @@ public class PlayerMover : PlayerProperty
 		m_masuCurrent = MasuManager.Instance.GetMasu(m_playerData.masu_id);
 		m_iMovableCount = _iMovableCount;
 		m_iMoveCount = 0;
+		m_evMovableCount.Invoke(m_iMovableCount);
 
 		OnMoveEnd = _onFinished;
 		m_iMoveHistory = new int[m_iMovableCount + 1];
@@ -32,6 +33,7 @@ public class PlayerMover : PlayerProperty
 	public int m_iPrevMasuId;
 	public int[] m_iMoveHistory;
 	private PlayerPosition m_playerPosition;
+	public EventInt m_evMovableCount;
 
 	private void Update()
 	{
@@ -79,9 +81,11 @@ public class PlayerMover : PlayerProperty
 
 			m_playerData.masu_id = target_masu_id;
 			m_masuCurrent = MasuManager.Instance.GetMasu(m_playerData.masu_id);
+			m_evMovableCount.Invoke(m_iMovableCount);
 
 			if ( m_iMovableCount <= 0)
 			{
+				m_evMovableCount.Invoke(-1);
 				OnMoveEnd.Invoke();
 				OnMoveEnd = null;
 			}
